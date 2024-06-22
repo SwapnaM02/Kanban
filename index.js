@@ -79,21 +79,7 @@ prioritycolor.forEach(color => color.addEventListener('click', function(e){
 
 }));
 
-removeBtn.addEventListener('click',function()
-{
-    removeTaskFlag=!removeTaskFlag;
-    if(removeTaskFlag)
-        {
-            alert('Delete btn activated');
-            removeBtn.style.color="red";
 
-        }
-
-        else{
-            removeBtn.style.color="white";
-
-        }
-})
 
 
 
